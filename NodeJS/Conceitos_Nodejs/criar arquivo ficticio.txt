@@ -1,0 +1,7 @@
+//Comando para criar arquivo com o texto inserido 
+
+echo 'Exemplo de texto' >> nome_arquivo.txt 
+
+//atribuir copias do conteudo do arquivo em 14 vezes para outro ou mesmo arquivo 
+
+for /L %i in (1,1,14) do type nome_arquivo.txt >> nome_arquivo.txt
